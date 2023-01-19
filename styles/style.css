@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  width: 200px;
+}
+section {
+  height: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Header Style ==============================================================================================================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+header {
+  background: url("../images/hero.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.header-text-box {
+  color: #ffffff;
+  max-width: 600px;
+}
+.header-text-btn {
+  background: rgba(255, 255, 255, 0.15);
+}
+.header-text-box-2 {
+  position: absolute;
+  bottom: 0;
+  max-width: 700px;
+}
+.blue {
+  color: #01695d;
+}
+.img-bg-1 {
+  background: url("../images/Vector\ 51.png"), url("../images/Vector\ 51.png");
+  background-repeat: no-repeat;
+  background-position: top right, bottom center;
+}
+.img-bg-2 {
+  background: url("../images/Vector\ 51.png"), url("../images/Vector\ 51.png");
+  background-repeat: no-repeat;
+  background-position: top center, bottom left;
+}
+
+.banner {
+  background: url("../images/Group\ 2086.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: #ffffff;
+}
+footer {
+  background: #000c0c;
+  color: #ffffff;
+}
